@@ -34,6 +34,7 @@ Copy this folder into `~/.codex/skills/` or another compatible skills directory.
 
 - `SKILL.md`: main skill definition
 - `agents/openai.yaml`: UI metadata
+- `docs/master-anything-structure.md`: structure diagram
 - `LICENSE`: repository license
 
 ## License
