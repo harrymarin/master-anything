@@ -1,0 +1,4 @@
+interface:
+  display_name: "Master Anything"
+  short_description: "Learn any field from zero to mastery with maps, models, practice, and transfer"
+  default_prompt: "Use $master-anything to help me learn this topic from zero to mastery with plain-language teaching, a strategic map, deliberate practice, and expert-level transfer."
