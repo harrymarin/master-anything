@@ -1,93 +1,144 @@
 # Master Anything Structure
 
-This diagram describes the structure and operating flow of the `master-anything` skill.
+This document explains the full structure of the `master-anything` skill in a form that is easier to read than a wide, flattened graph.
+
+## Vertical Overview
 
 ```mermaid
 flowchart TD
-    A["master-anything"] --> B["Metadata Layer"]
-    A --> C["Instruction Layer"]
-    A --> D["Execution Layer"]
-    A --> E["Output Layer"]
-    A --> F["Mastery Layer"]
+    A["1. Mission"]
+    A1["Turn any field into the shortest realistic path from zero to mastery"]
 
-    B --> B1["name: master-anything"]
-    B --> B2["description: zero-to-mastery learning trigger"]
-    B --> B3["agents/openai.yaml"]
+    B["2. Principles"]
+    B1["Zero foundation by default"]
+    B2["Plain language before terminology"]
+    B3["Map before detail"]
+    B4["Practice before praise"]
 
-    C --> C1["Overview"]
-    C --> C2["Core Mission"]
-    C --> C3["When to Use"]
-    C --> C4["Non-Negotiable Rules"]
-    C --> C5["Teaching Style"]
-    C --> C6["Mental Models"]
+    C["3. Mental Models"]
+    C1["First Principles"]
+    C2["80/20"]
+    C3["Systems Thinking"]
+    C4["Analogy and Transfer"]
+    C5["Inversion"]
+    C6["Feynman Technique"]
+    C7["Deliberate Practice"]
+    C8["Bayesian Updating"]
+    C9["Second-Order Thinking"]
+    C10["Map Is Not Territory"]
 
-    C6 --> C61["First Principles"]
-    C6 --> C62["80/20"]
-    C6 --> C63["Systems Thinking"]
-    C6 --> C64["Analogy and Transfer"]
-    C6 --> C65["Inversion"]
-    C6 --> C66["Feynman Technique"]
-    C6 --> C67["Deliberate Practice"]
-    C6 --> C68["Bayesian Updating"]
-    C6 --> C69["Second-Order Thinking"]
-    C6 --> C610["Map Is Not Territory"]
+    D["4. Learning Engine"]
+    D1["Define end state"]
+    D2["Diagnose starting point"]
+    D3["Build strategic map"]
+    D4["Find leverage points"]
+    D5["Teach progressively"]
 
-    D --> D1["Standard Workflow"]
-    D1 --> D11["Define the End State"]
-    D1 --> D12["Diagnose the Starting Point"]
-    D1 --> D13["Build the Strategic Map"]
-    D1 --> D14["Find the Leverage Points"]
-    D1 --> D15["Teach Progressively"]
-    D1 --> D16["Run the Training Loop"]
-    D1 --> D17["Push Into Real Use"]
-    D1 --> D18["Scan for Weakness"]
-    D1 --> D19["Train for Expertise"]
-    D1 --> D110["Confirm Mastery"]
+    E["5. Training Loop"]
+    E1["Restate"]
+    E2["Differentiate"]
+    E3["Apply"]
+    E4["Transfer"]
+    E5["Correct"]
+    E6["Push into real use"]
 
-    D --> D2["Concept Teaching Protocol"]
-    D2 --> D21["Human Version"]
-    D2 --> D22["Intuition"]
-    D2 --> D23["Professional Version"]
-    D2 --> D24["Example"]
-    D2 --> D25["Counterexample or Confusion"]
-    D2 --> D26["Use Case"]
-    D2 --> D27["Check"]
-    D2 --> D28["Correction"]
+    F["6. Mastery Standard"]
+    F1["Explain simply"]
+    F2["Use professional terms accurately"]
+    F3["Solve realistic problems"]
+    F4["Handle edge cases"]
+    F5["Transfer across domains"]
+    F6["Teach another beginner"]
 
-    E --> E1["Output Pattern"]
-    E1 --> E11["Where you are now"]
-    E1 --> E12["What we are learning now"]
-    E1 --> E13["Plain-language map"]
-    E1 --> E14["Professional layer"]
-    E1 --> E15["Example and non-example"]
-    E1 --> E16["Common mistakes"]
-    E1 --> E17["Practice now"]
-    E1 --> E18["Feedback and correction"]
-    E1 --> E19["Next step"]
+    G["7. Repository Files"]
+    G1["SKILL.md"]
+    G2["agents/openai.yaml"]
+    G3["README.md"]
+    G4["docs/master-anything-structure.md"]
 
-    E --> E2["Exercise Types"]
-    E2 --> E21["Restate"]
-    E2 --> E22["Differentiate"]
-    E2 --> E23["Classify"]
-    E2 --> E24["Apply"]
-    E2 --> E25["Predict"]
-    E2 --> E26["Compare"]
-    E2 --> E27["Teach"]
-    E2 --> E28["Transfer"]
-
-    F --> F1["Zero-Beginner Protection"]
-    F --> F2["Mastery Criteria"]
-    F --> F3["Common Failure Modes"]
-    F --> F4["Tone"]
-
-    F2 --> F21["Explain simply"]
-    F2 --> F22["Use professional terms accurately"]
-    F2 --> F23["Apply to realistic cases"]
-    F2 --> F24["Distinguish nearby concepts"]
-    F2 --> F25["Handle edge cases"]
-    F2 --> F26["Transfer to related domains"]
-    F2 --> F27["Teach another beginner"]
+    A --> A1 --> B
+    B --> B1 --> B2 --> B3 --> B4 --> C
+    C --> C1 --> C2 --> C3 --> C4 --> C5 --> C6 --> C7 --> C8 --> C9 --> C10 --> D
+    D --> D1 --> D2 --> D3 --> D4 --> D5 --> E
+    E --> E1 --> E2 --> E3 --> E4 --> E5 --> E6 --> F
+    F --> F1 --> F2 --> F3 --> F4 --> F5 --> F6 --> G
+    G --> G1 --> G2 --> G3 --> G4
 ```
+
+## Layer-by-Layer Explanation
+
+### 1. Mission
+
+The top layer defines what the skill is trying to do:
+
+- not just explain a field
+- not just summarize a topic
+- but move the user from zero foundation to practical mastery as fast as realistically possible
+
+### 2. Principles
+
+These rules protect beginners from being overwhelmed:
+
+- assume zero foundation first
+- build intuition before terminology
+- give the map before the details
+- require practice before calling progress real
+
+### 3. Mental Models
+
+This is the compression engine of the skill. It uses:
+
+- `First Principles` to get to essence
+- `80/20` to focus on the highest-leverage pieces
+- `Systems Thinking` to build structural understanding
+- `Analogy and Transfer` to make new concepts intuitive
+- `Inversion` to prevent common beginner mistakes
+- `Feynman Technique` to expose fake understanding
+- `Deliberate Practice` to attack weakness directly
+- `Bayesian Updating` to revise the model as understanding improves
+- `Second-Order Thinking` to optimize the whole path, not just the next step
+- `Map Is Not Territory` to keep the user grounded in real use
+
+### 4. Learning Engine
+
+This is the standard strategic workflow:
+
+1. define what mastery means for this field
+2. diagnose where the user is starting
+3. build a plain-language map of the field
+4. isolate the highest-leverage concepts and actions
+5. teach progressively from intuition to formal structure
+
+### 5. Training Loop
+
+This is where learning becomes capability:
+
+- restate ideas in the user's own words
+- differentiate nearby concepts
+- apply the concept to a case
+- transfer it to a related context
+- correct errors precisely
+- push into real use instead of toy examples
+
+### 6. Mastery Standard
+
+The skill only treats learning as successful when the user can:
+
+- explain clearly
+- use the right formal language
+- solve realistic problems
+- handle non-obvious cases
+- transfer the idea to nearby domains
+- teach the idea to another beginner
+
+### 7. Repository Files
+
+The repository mirrors the architecture:
+
+- `SKILL.md` contains the operational logic
+- `agents/openai.yaml` contains UI metadata
+- `README.md` explains the value and usage
+- `docs/master-anything-structure.md` explains the architecture visually
 
 ## File Layout
 
