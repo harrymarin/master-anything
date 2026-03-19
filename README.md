@@ -1,5 +1,9 @@
 [![English](https://img.shields.io/badge/English-Click_to_View-blue)](./README.en.md)
 [![中文](https://img.shields.io/badge/中文-当前-green)](./README.md)
+[![Install](https://img.shields.io/badge/Install-Guide-orange)](#安装)
+[![Structure](https://img.shields.io/badge/Structure-Architecture-purple)](./docs/master-anything-structure.md)
+[![Release](https://img.shields.io/badge/Release-v0.1.0-black)](https://github.com/harrymarin/master-anything/releases/tag/v0.1.0)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](./LICENSE)
 
 # Master Anything
 
@@ -13,6 +17,29 @@
 - 刻意练习
 - 反馈闭环
 - 迁移式陪练
+
+## 快速导航
+
+- [它为什么存在](#它为什么存在)
+- [它和普通学习助手有什么不同](#它和普通学习助手有什么不同)
+- [纵向分层架构](#纵向分层架构)
+- [顶级思维模型](#顶级思维模型)
+- [从零到精通工作流](#从零到精通工作流)
+- [安装](#安装)
+- [使用示例](#使用示例)
+
+## 快速开始
+
+1. 复制整个 `master-anything` 文件夹到 `~/.codex/skills/`
+2. 在对话里显式调用 `$master-anything`
+3. 告诉它你要学什么，以及你想达到什么水平
+
+示例：
+
+```text
+Use $master-anything to teach me product strategy from zero to mastery.
+Start with a plain-language strategic map, then train me through examples, exercises, and feedback until I can apply and teach it.
+```
 
 ## 它为什么存在
 

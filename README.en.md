@@ -1,11 +1,38 @@
 [![English](https://img.shields.io/badge/English-Current-green)](./README.en.md)
 [![中文](https://img.shields.io/badge/中文-点击查看-blue)](./README.md)
+[![Install](https://img.shields.io/badge/Install-Guide-orange)](#install)
+[![Structure](https://img.shields.io/badge/Structure-Architecture-purple)](./docs/master-anything-structure.md)
+[![Release](https://img.shields.io/badge/Release-v0.1.0-black)](https://github.com/harrymarin/master-anything/releases/tag/v0.1.0)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](./LICENSE)
 
 # Master Anything
 
 Master Anything is a universal mastery engine for Codex/OpenClaw. It is built to take a user from zero foundation to real expertise in any field through plain-language teaching, strategic learning maps, elite mental models, deliberate practice, feedback loops, and transfer-oriented coaching.
 
 It is not a generic learning assistant. Its purpose is to compress any unfamiliar domain into the shortest realistic path from beginner to mastery, then keep pushing until the user can apply, judge, transfer, and teach what they learned.
+
+## Quick Navigation
+
+- [Why It Exists](#why-it-exists)
+- [What Makes It Different](#what-makes-it-different)
+- [Vertical Architecture](#vertical-architecture)
+- [Elite Mental Models](#elite-mental-models)
+- [Zero-to-Mastery Workflow](#zero-to-mastery-workflow)
+- [Install](#install)
+- [Usage](#usage)
+
+## Quick Start
+
+1. Copy the whole `master-anything` folder into `~/.codex/skills/`
+2. Explicitly invoke `$master-anything`
+3. Tell it what you want to learn and what level you want to reach
+
+Example:
+
+```text
+Use $master-anything to teach me product strategy from zero to mastery.
+Start with a plain-language strategic map, then train me through examples, exercises, and feedback until I can apply and teach it.
+```
 
 ## Why It Exists
 
